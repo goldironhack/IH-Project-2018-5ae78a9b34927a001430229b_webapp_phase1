@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<div id="todo" class="container" style="text-align: center" >
+		<div class="row">
+			<div class="col-md-6">
+				<button id="gdnng">Get Data</button>
+			</div>
+			<div class="col-md-6">
+				<button id="uptable">Update Tables</button>
+			</div>
+		</div>
+		<div class="row" style="font-size: xx-small">
+			<div class="col-md-4" >
+				<table >
+					<thead>
+						<tr>
+							<th colspan="2">NNG</th>	
+						</tr>
+						<tr>
+							<th>Centroid of the neighborhood inside a borough</th>
+							<th>Borough name</th>
+						</tr>
+						<tbody id="tablanng">
+
+						</tbody>
+					</thead>
+				</table>
+			</div>
+			<div class="col-md-4">
+				<table>
+					<thead>
+						<tr>
+							<th colspan="4">NYC</th>	
+						</tr>
+						<tr>
+							<th>Borough name</th>
+							<th>Description of crime</th>
+							<th>Latitud and longitud of the crime</th>
+							<th>Date when the crime happened</th>
+						</tr>
+						<tbody id="tablacny">
+
+						</tbody>
+					</thead>
+				</table>
+			</div>
+			<div class="col-md-4">
+				<table>
+					<thead>
+						<tr>
+							<th colspan="4">HNYUB</th>	
+						</tr>
+						<tr>
+							<th>Borough name</th>
+							<th>Latitud of the building</th>
+							<th>Longitud of the building</th>
+							<th>Number of units based on an afforability range</th>
+						</tr>
+						<tbody id="tablahnyub">
+
+						</tbody>
+					</thead>
+				</table>
+			</div>
+		</div>
+	</div>
+		
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+	<script language="javascript" src="codigo.js"> </script>
+</body>
+</html>
